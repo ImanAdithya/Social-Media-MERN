@@ -9,6 +9,9 @@ const PostModel = mongoose.Schema(
         "image": {
             type: String
         },
+        "like": {
+            type: String
+        },
         "userName": {
             required: true,
             type: String
